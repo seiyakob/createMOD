@@ -1,0 +1,29 @@
+modLoader="javafml" # 必須
+loaderVersion="[40,)" # Forge 40.x 以降に対応
+
+license="MIT" # 好きなライセンスに変更可
+
+[[mods]]
+modId="seiyamod"
+version="1.0"
+displayName="Seiya Mod"
+authors="seiya"
+description='''
+This is a second test mod.
+It works with Minecraft 1.18 and Forge 40.3.0.
+'''
+
+[[dependencies.seiyamod]]
+modId="forge"
+mandatory=true
+versionRange="[40.3.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.seiyamod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18,1.19)"
+ordering="NONE"
+side="BOTH"
+
