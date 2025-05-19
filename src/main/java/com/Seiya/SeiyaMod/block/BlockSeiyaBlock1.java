@@ -10,6 +10,13 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.ItemStack;
 
+import net.minecraft.world.phys.HitResult;
+import java.util.List;
+import java.util.ArrayList;
+import net.minecraft.world.level.storage.loot.LootContext;
+
+
+
 import java.util.HashSet;
 import java.util.Queue;
 import java.util.ArrayDeque;
@@ -23,7 +30,7 @@ public class BlockSeiyaBlock1 extends Block {
             .strength(7.0f, 12000F)
             .sound(SoundType.ANVIL)
             .lightLevel(value -> 15)
-            .requiresCorrectToolForDrops()
+            //.requiresCorrectToolForDrops()
         );
         this.setRegistryName("seiya_block1");
     }
@@ -63,5 +70,12 @@ public class BlockSeiyaBlock1 extends Block {
                 }
             }
         }
+    }
+
+    @Override
+    public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+        List<ItemStack> drops = new ArrayList<>();
+        drops.add(new ItemStack(this));
+        return drops;
     }
 }
