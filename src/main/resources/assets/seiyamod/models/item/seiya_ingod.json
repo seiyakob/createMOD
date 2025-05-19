@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:itewm/generated",
-    "textures":{
-      "layer0":"seiyamod:item/seiya_ingod"
-    }
-  }
-  

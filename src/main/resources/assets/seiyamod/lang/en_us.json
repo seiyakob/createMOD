@@ -1,6 +1,17 @@
 {
-    "itemGroup.seiyamod_tab": "Seiya Mod",
+    "itemGroup.seiyamod_tab": "OneDayPlayPark Mod",
+
+    "item.seiyamod.seiya_tool":"Rod for Removal",
     
-    "item.seiyamod.seiya_ingod":"seiya_ingod_dayo"
+    "block.seiyamod.seiya_block1":"From partiton",
+    "block.seiyamod.seiya_block2":"From waste(Blue)",
+    "block.seiyamod.seiya_block3":"From waste(Green)",
+    "block.seiyamod.seiya_block4":"From waste(White)",
+    "block.seiyamod.seiya_block5":"Alminium x Plastic",
+    "block.seiyamod.seiya_block6":"Biomass(Red)",
+    "block.seiyamod.seiya_block7":"3DPrint(From Refill Pack)",
+    "block.seiyamod.seiya_block8":"3D Print(Transparent)",
+    "block.seiyamod.seiya_block9":"Refill Packs",
+    "block.seiyamod.seiya_block10":"Ocean Plastics"
   }
   

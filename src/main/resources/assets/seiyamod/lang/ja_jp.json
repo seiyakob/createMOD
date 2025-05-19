@@ -1,5 +1,16 @@
 {
-    "itemGroup.seiyamod_tab": "せいや Mod",
+    "itemGroup.seiyamod_tab": "OneDayPlayPark Mod",
 
-    "item.seiyamod.seiya_ingod":"seiya_ingod_だよ"
+    "item.seiyamod.seiya_tool":"取り出しの杖",
+
+    "block.seiyamod.seiya_block1":"アクリルパーテーション",
+    "block.seiyamod.seiya_block2":"モノになれなかったプラスチック（あお）",
+    "block.seiyamod.seiya_block3":"モノになれなかったプラスチック（みどり）",
+    "block.seiyamod.seiya_block4":"モノになれなかったプラスチック（しろ）",
+    "block.seiyamod.seiya_block5":"アルミニウムとプラスチック",
+    "block.seiyamod.seiya_block6":"バイオマス（あか）",
+    "block.seiyamod.seiya_block7":"3Dプリントパネル(つめかえパック)",
+    "block.seiyamod.seiya_block8":"とうめい3Dプリントパネル",
+    "block.seiyamod.seiya_block9":"つめかえパック",
+    "block.seiyamod.seiya_block10":"りょうでつかうあみ"
   }
