@@ -17,15 +17,15 @@ import java.util.Set;
 
 import com.Seiya.SeiyaMod.registry.SeiyaModTool;  // SeiyaToolの参照用
 
-public class BlockSeiyaBlock1 extends Block {
-    public BlockSeiyaBlock1() {
+public class BlockSeiyaBlock9 extends Block {
+    public BlockSeiyaBlock9() {
         super(Properties.of(Material.SAND)
             .strength(7.0f, 12000F)
             .sound(SoundType.ANVIL)
             .lightLevel(value -> 15)
             .requiresCorrectToolForDrops()
         );
-        this.setRegistryName("seiya_block1");
+        this.setRegistryName("seiya_block9");
     }
 
     // プレイヤーが壊す時に連鎖破壊処理を行う (seiya_tool使用時のみ)
